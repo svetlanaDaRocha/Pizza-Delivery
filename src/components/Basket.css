@@ -1,0 +1,49 @@
+.basket-sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  z-index: 900;
+
+  h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: 'Special Elite', cursive;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  } 
+
+  h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+  } 
+}
+
+.basket-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.close-basket {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+} 

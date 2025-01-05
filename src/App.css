@@ -1,0 +1,86 @@
+.App {
+  margin: 0;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafff7;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 0px 40px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    min-width: 170px;
+    height: 220px;
+  }
+
+  h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 20px 40px;
+  gap: 30px;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 1;
+  min-width: 0; /* Prevents flex item from overflowing  */
+}
+
+.basket-icon {
+  color:  #e74c3c;
+  background: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.basket-icon:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 1460px) {
+  .main-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-content {
+    display: grid;
+    grid-auto-flow: row;
+    place-items: center;
+  }
+
+  .App-header {
+    padding: 15px 20px;
+  }
+}

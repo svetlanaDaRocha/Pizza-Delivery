@@ -1,0 +1,98 @@
+.success-order {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.success-message {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.success-message h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.success-message h2 {
+  font-family: 'Special Elite', cursive;
+  color: #2c3e50;
+  font-size: 1.4rem;
+}
+
+.order-details {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.order-details h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.3rem;
+}
+
+.delivery-info, .items-list {
+  margin-bottom: 20px;
+}
+
+.delivery-info h4, .items-list h4 {
+  color: #34495e;
+  margin-bottom: 15px;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.1rem;
+}
+
+.order-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.order-item h5 {
+  margin: 0;
+  color: #2c3e50;
+  font-family: 'Special Elite', cursive;
+}
+
+.toppings {
+  color: #666;
+  margin: 5px 0;
+  font-family: 'Special Elite', cursive;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.total-price {
+  text-align: center;
+  font-size: 1.1em;
+  color: #e74c3c;
+}
+
+.download-pdf-button {
+    background-color: #4F6F52;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.download-pdf-button:hover {
+    background-color: #3d5740;
+}
+
+.redirect-message {
+  text-align: center;
+  color: #666;
+  margin-top: 30px;
+  font-style: italic;
+} 
