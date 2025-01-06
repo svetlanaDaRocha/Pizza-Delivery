@@ -1,8 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Option: Pizza Delivery Service
 
-Currently, two official plugins are available:
+**Objective**: A simple web app for customers to order pizza, customize toppings, view an order summary, pay and get comfirmation of order.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Requirements:
+
+- **Menu Display**: Show available pizza options with descriptions and prices.
+- **Pizza Customization**: Allow users to add/remove toppings.
+- **Order Summary**: Display the order with pizza details and total price.
+
+#### Optional Features:
+
+- Enable users to add multiple pizzas to the order.
+- Allow users to schedule a delivery time.
