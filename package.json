@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "homepage": "https://svetlanadarocha.github.io/Pizza-Delivery"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
